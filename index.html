@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epiphany</title>
+    <link rel="icon" href="/vite.svg" />
+    <!-- Add a basic CSS reset -->
+    <style>
+      /* CSS Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Global Styles */
+      html, body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Poppins', sans-serif;
+        background-color: #000000;
+      }
+
+      #root {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is where your React app will be mounted -->
+    <div id="root"></div>
+
+    <!-- This will load your main JS file compiled by Vite -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
